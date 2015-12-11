@@ -26,7 +26,7 @@ Sumit Shastri, sumit.kumar@dotsquares.com
 
 
 ## Create DSCalendarScrollView 
-
+```
 DSCalendarScrollView *calenderScroll = [[DSCalendarScrollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 90)];
 calenderScroll.delegate = self;
 calenderScroll.textColor =UIColorFromRGBWithAlpha(0x85009E, 1.0);
@@ -38,10 +38,10 @@ calenderScroll.minFontSize = 20;
 calenderScroll.dayNeedToBeShow = 365;
 calenderScroll.selectedDate = [NSDate dateWithTimeIntervalSinceNow:60*60*24*1];
 [self.view addSubview:calenderScroll];
-
+```
 
 ## Delegate Method 
-
+```
 - (void)calendarScrollView:(DSCalendarScrollView*)calendarScrollView  didSelectDateFromPicker:(NSInteger)index pickerItem:(DSCalendarItem *)pickerItem;
 {
 
@@ -52,7 +52,7 @@ calenderScroll.selectedDate = [NSDate dateWithTimeIntervalSinceNow:60*60*24*1];
 {
     self.lblDate.text = [NSString stringWithFormat:@"%@",pickerItem.date];
 }
-
+```
 
 ## License
 
