@@ -1,0 +1,21 @@
+PODS:
+  - DSCalendarScrollView (0.1.0)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DSCalendarScrollView (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DSCalendarScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSCalendarScrollView: f9da062209fc709948fc4816ed430b2db6061cea
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+
+COCOAPODS: 0.39.0

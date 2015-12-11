@@ -1,0 +1,6 @@
+framework module DSCalendarScrollView {
+  umbrella header "DSCalendarScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

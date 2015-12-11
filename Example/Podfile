@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DSCalendarScrollView_Example', :exclusive => true do
+  pod "DSCalendarScrollView", :path => "../"
+end
+
+target 'DSCalendarScrollView_Tests', :exclusive => true do
+  pod "DSCalendarScrollView", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
